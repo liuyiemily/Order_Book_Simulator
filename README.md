@@ -1,5 +1,5 @@
 # Order_Book_Simulator
-Implemented an order book simulator in C++, given a list of strings to output the matched orders with price, time priority 
+Implemented an order book simulator in C++, given a list of strings to output the matched orders with price, time priority. 
 
 Objectives:
 The task is to implement an order book simulator. You are given orders as a list of strings and are required write code to print output of what the matched orders will be.
@@ -7,9 +7,9 @@ Orders should be matched in “price,time” priority.
 
 – for example, given the following input:
 
-Name, Direction, Quantity, Price
-Customer1 ,Buy,10,100
-Customer2,Buy,10,101
+Name, Direction, Quantity, Price;
+Customer1 ,Buy,10,100;
+Customer2,Buy,10,101;
 Seller1,Sell,5,99
 
 Then a single trade between ‘Customer2’ and ‘Seller1’ should be generated, because even though Customer2’s order came in later, it is at a more competitive price so should get filled first, yielding the following output:
