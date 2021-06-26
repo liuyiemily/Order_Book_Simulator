@@ -10,7 +10,7 @@ struct Order
 	string name;
 	string direction;
 	int quantity;
-    int price;
+    	int price;
 	long long id; // use to maintain time priority
 };
 
